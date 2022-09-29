@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    background: #f4ecff;
+}
+
+
+#container {
+    width: 400px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0px 50px 0 50px;
+    background: #ffffff;
+    border-left: 1px solid purple;
+    border-right: 1px solid purple;
+}
+
+
+#headlines {
+    padding-top: 30px;
+    margin-bottom: 140px;
+}
+
+
+h1 {
+    color: purple;
+    font-family: 'Francois One', sans-serif;
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 16px;
+}
+
+
+input {
+    width: 340px;
+    height: 45px;
+    border: 1px solid #000000;
+    font-size: 22px;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 6px;
+    text-indent: 6px;
+}
+
+
+input:focus {
+    border: 1px solid #a700a7;
+}
+
+::placeholder {
+    color: #a700a7;
+    font-style: italic;
+}
+
+
+button {
+    width: 49px;
+    height: 49px;
+    font-size: 40px;
+    border: 1px solid #000000;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    border-radius: 6px;
+}
+
+button:active {     
+    background-color: #e091ff;
+    color: black;
+}
+
+
+#listOfTasks {
+    margin-top: 30px;
+}
+
+
+.paragraph-styling {
+    font-size: 18px;
+    line-height: 35px;
+    padding-left: 6px;
+    cursor: pointer;
+}
