@@ -9,7 +9,11 @@ let inputField = document.getElementById('inputField');
 let addTaskButton = document.getElementById('addTaskButton');
 let listOfTasks = document.getElementById('listOfTasks');
 
-// Skip this line of code for now. I will explain later what this does.
+// Skip this line of code for now. (I will tell you later when to come back to this)
+// Once you come back to this, start from here: This line of code picks up and displays anything that has been saved in the key/name "value".
+// If I didn't have this code here, the list would not get displayed when the page is refreshed, because the function would need to be invoked.
+// But now, since the list has been saved in the local storage, this line of code will get the data (the list) from the storage, and display it,
+// without having to invoke the function.
 listOfTasks.innerHTML = localStorage.getItem("value")
 
 
@@ -34,6 +38,7 @@ addTaskButton.addEventListener('click', function(){
 // Honestly I'm not really sure about how it actually works, but it somehow save data in a local storage / memory.
 // So do to this is write the following line of code. The 'value' is just a name, it could be anything. By saving the listOfTasks.innerHTML
 // to the local storage, I save all of the text inside of the div with the listOfTasks ID (which is everything that has been pasted into the paragraph element)
+// ...now for a quick second, before you continue, go to line 13.
     localStorage.setItem('value', listOfTasks.innerHTML)
 // The next thing I'll do is add an Event Listener to the paragraph variable, also with a Click event handler. What this does, is that whenever
 // you click on one of the to-do items pasted into the paragraph element (which is the value of the paragraph variable), as "line-through"
