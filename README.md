@@ -10,4 +10,4 @@ For the Javascript code I used the DOM API to manipulate HTML elements, and I al
 
 In order to be able to save the list of to-do items, when the page is refreshed, I used the Web Storage API. More specifically I used Window.localStorage, which is a property of the Web Storage API.
 
-I added comments in the JS file, trying to explain to my best ability what each line of code is doing.
+I've added comments in the JS file, trying to explain to my best ability what each line of code is doing.
